@@ -54,7 +54,7 @@ public class CounterOfUniqueIps {
 
             Arrays.fill(intIpParts, 0);
 
-            //windows - /n/r, linux = /n
+            //windows - /n/r, linux - /n
             for (int i = 0, j = 0; charIp[i] != ENDL_N && charIp[i] != ENDL_R; ++i) {
                 if (charIp[i] == SEPARATOR) ++j;
                 else {
